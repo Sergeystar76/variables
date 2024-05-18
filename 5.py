@@ -1,0 +1,5 @@
+print('Введите число')
+number = input()
+print('Напишите любимое дело')
+job = input(str())
+print((' Обожаю писать '+job)*int(number))

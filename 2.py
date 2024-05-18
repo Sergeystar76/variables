@@ -1,0 +1,8 @@
+print ('Введите стоимость товара')
+price = input ()
+print ('Введите вес товара')
+weight = input ()
+print ('Сколько у Вас денег?')
+cash = input ()
+summa = ( int(price) * int (weight))
+print ( 'Ваша сдача',int (cash) - int ( summa ), 'руб.')
